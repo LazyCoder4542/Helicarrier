@@ -1,0 +1,45 @@
+.animate
+    animation:
+        timing-function: ease-in-out
+        delay: 500ms
+        duration: 500ms
+        fill-mode: forwards
+.fade
+    animation-delay: 0ms
+    animation-duration: 1000ms
+.slideRight
+    animation-delay: 500ms
+@media screen and ( min-width: 600px )
+    section
+        .slideUp
+            @for $i from 1 through 3
+                &:nth-child(#{$i})
+                    animation-delay: 500ms + (200ms * ($i - 1))
+             
+
+@keyframes fade
+    from
+        opacity: 0
+    to
+        opacity: 1
+@keyframes slideUp
+    from
+        transform: translateY(50%)
+        opacity: 0
+    to
+        transform: none
+        opacity: 1
+@keyframes slideRight
+    from
+        opacity: 0
+        transform: translateX(-200%)
+    to
+        opacity: 1
+        transform: none
+/*@keyframes slideLeft
+    from
+        opacity: 0
+        transform: translateX(100%)
+    to
+        opacity: 1
+        transform: none
