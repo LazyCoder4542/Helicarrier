@@ -12,6 +12,7 @@ This is a copy of a network that provides cryptocurrency infrastructures for afr
   - [Built with](#built-with)
   - [Continued development](#continued-development)
 - [What I Learnt](#what-i-learnt)
+- [Contributors](#contributors)
 - [Author](#author)
 
 ## Overview
