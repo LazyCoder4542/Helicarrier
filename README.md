@@ -1,6 +1,6 @@
 # Helicarrier
 
-This is a copy of a network that provides cryptocurrency infrstructures for africans.
+This is a copy of a network that provides cryptocurrency infrastructures for africans.
 [Original Page](https://helicarrier.studio)
 
 ## Table of contents
